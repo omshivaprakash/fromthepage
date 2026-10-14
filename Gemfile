@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 ruby '3.3.5'
 
-gem 'rails', '~> 7.2.1'
+gem 'rails', '~> 7.2.3'
 gem 'puma'
 gem 'bootsnap', require: false
 
@@ -16,17 +16,17 @@ gem 'acts_as_tree'
 gem 'interactor-rails', '~> 2.0'
 gem 'friendly_id'
 gem 'thredded', '~> 1.1'
-gem 'solid_queue', '~> 1.2'
+gem 'solid_queue', '~> 1.7'
 gem 'mission_control-jobs'
 
 # Authentication / Security
 gem 'devise'
 gem 'devise-encryptable'
-gem 'devise_masquerade', '~> 1.2.0'
-gem 'omniauth', '~> 1.9'
+gem 'devise_masquerade', '~> 2.1.6'
+gem 'omniauth', '~> 2.1'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-multi-provider', '~> 0.2.1'
-gem 'omniauth-saml', '~> 1.10.6'
+gem 'omniauth-saml', '~> 2.2.5'
 gem 'rack-attack'
 gem 'recaptcha', require: 'recaptcha/rails'
 
@@ -37,7 +37,7 @@ gem 'rubyzip'
 
 # HTTP / API / External SDKs
 gem 'httparty'
-gem 'savon', '~> 2.15', '>= 2.15.1'
+gem 'savon', '~> 2.17'
 gem 'ruby-openai'
 gem 'open3'
 gem 'bento-sdk', github: 'bentonow/bento-ruby-sdk', branch: 'master'
@@ -73,7 +73,7 @@ gem 'rtl'
 
 # Email / Notifications
 gem 'postmark-rails'
-gem 'mail', '~> 2.7'
+gem 'mail', '~> 2.9'
 gem 'gravatar_image_tag', github: 'Tinix/gravatar_image_tag'
 
 # Frontend / UI
